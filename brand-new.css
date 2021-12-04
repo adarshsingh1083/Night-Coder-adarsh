@@ -183,6 +183,10 @@ header p{
   color: #808080;
   padding-right: 0.9vw;
   cursor: pointer;
+} 
+#footer a{
+  color: #808080;
+  text-decoration: none;
 }  
 
 #footer p{
