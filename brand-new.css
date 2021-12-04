@@ -1,0 +1,220 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+ h3, p{
+  color: #808080;
+  font-weight: 400;
+  font-family: 'Montserrat' sans-serif;
+}
+
+
+ #hr-rw{
+   border: dotted #08a0ad 0.5rem;
+   width: 7rem;
+   background-color: #fff;
+   border-bottom: none;
+   margin: 7rem 0rem;
+ }
+
+/* header */
+
+header{
+  background-color: #45a5ad;
+}
+header .icon{
+  padding: 0.5rem 0.5rem;
+  display: block;
+  width: 10%;
+  height: auto;
+}
+
+header p{
+  color: white;
+}
+
+#adarsh{
+  font-family: 'Sacramento';
+  font-size: 8vw;
+  text-align: center;
+  color: #fff;
+}
+
+.pro-edit{
+  font-size: 2vw;
+}
+
+ div, header p{
+  text-align: center;
+}
+.cloud{
+  display: block;
+  width: 10%;
+  height: auto;
+  margin-left: 8%;
+
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+
+
+
+/* main */
+
+#me{
+  padding: 4rem 0rem;
+}
+
+#me img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: auto;
+}
+
+#me h1{
+  padding: 1.9rem 0rem 0rem;
+  color: #808080;
+  font-size: 6vw;
+}
+
+#me p{
+  font-size: 2.5vw;
+  padding: 3rem 3rem 0rem;
+  font-size: 20px;
+}
+
+/* Skill Section */
+
+#skill{
+  background-color: #45a5ad;
+  color: #fff;
+  padding-bottom: 10vw;
+}
+
+.skill-h1{
+  font-family: 'Montserrat' sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  padding: 1vw 0rem;
+}
+
+/* WEB-DEVELOPER  SECTION*/
+.web-dev{
+  padding: 5vw 6vw 1vw;
+}
+.web-dev h2{
+  font-family: 'Montserrat' sans-serif;
+  font-weight: lighter;
+}
+.web-dev img{
+  display: block;
+  width: 15%;
+  height: auto;
+  float: left;
+}
+.web-dev p{
+  color: #fff;
+  font-family: 'Montserrat' sans-serif;
+  padding: 1vw 2vw 1vw 0vw;
+  font-size: 20px;
+}
+
+/* VIDEO-EDITIOR SECTION */
+.vid-edit{
+  padding: 10vw 6vw 1vw;
+}
+.vid-edit h2{
+  font-family: 'Montserrat' sans-serif;
+  font-weight: lighter;
+}
+.vid-edit img{
+  float: right;
+  display: block;
+  width: 15%;
+  height: auto;
+}
+.vid-edit p{
+  color: #fff;
+  font-family: 'Montserrat' sans-serif;
+  padding: 1vw 0vw 1vw 13vw;
+  font-size: 20px;
+}
+
+
+/* Get-in-Touch */
+
+#git{
+  text-align: center;
+  color: #808080;
+}
+#git h1, #git h2, p{
+  font-weight: lighter;
+  padding: 1rem 0rem;
+}
+
+#git p{
+  font-size: larger;
+  padding: 3rem 0rem;
+}
+
+/* footer */
+
+
+
+
+
+#footer .twt, .fb, .gm, .ig, .github, .yt{
+  font-size: 2vw;
+  color: #808080;
+  padding-right: 0.9vw;
+  cursor: pointer;
+}  
+
+#footer p{
+  font-size: 1.2rem;
+}
+
+#footer .twt:hover{
+    color:  #00acee;
+}
+
+#footer .fb:hover{
+  color: #4267b2;
+}
+
+#footer .gm:hover{
+  color: #e20b0b;
+}
+
+#footer .ig:hover{
+  color: rgb(250, 59, 91);
+}
+
+#footer .github:hover{
+  color: black;
+}
+#footer .yt:hover{
+  color: #ff0505;
+}
+
+
+@media screen and (max-width: 500px) {
+    body{
+      background-color: rebeccapurple;
+    }
+}
